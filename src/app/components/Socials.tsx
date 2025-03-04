@@ -1,0 +1,44 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { cn } from "@/lib/utils";
+
+const Socials: React.FC<{ className?: string }> = ({ className }) => {
+  return (
+    <div
+      className={cn(
+        "flex flex-col gap-2 w-full justify-center sm:justify-start",
+        className
+      )}
+    >
+      <a
+        target="_blank"
+        href="https://github.com/rob1121"
+        className="flex items-center gap-2 hover:opacity-100 opacity-50 transition duration-300 ease-in-out"
+      >
+        <FontAwesomeIcon icon={faGithub} className="size-4" />
+        https://github.com/rob1121
+      </a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/robinson-legaspi/"
+        aria-label="Linkedin"
+        className="flex items-center gap-2 hover:opacity-100 opacity-50 transition duration-300 ease-in-out"
+      >
+        <FontAwesomeIcon icon={faLinkedin} className="size-4" />
+        https://www.linkedin.com/in/robinson-legaspi/
+      </a>
+      <a
+        target="_blank"
+        href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=robinson.legaspi@yahoo.com&amp;su=Hey%20Rob!&amp;body=Hi%20Rob,%20"
+        aria-label="Email"
+        className="flex items-center gap-2 hover:opacity-100 opacity-50 transition duration-300 ease-in-out"
+      >
+        <FontAwesomeIcon icon={faEnvelope} className="size-4" />
+        robinson.legaspi@yahoo.com
+      </a>
+    </div>
+  );
+};
+
+export default Socials;
