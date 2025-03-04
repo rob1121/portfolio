@@ -1,16 +1,4 @@
-import Image from "next/image";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
 import { Project } from "@/types";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
-import { AvatarCircles } from "./magicui/avatar-circles";
 import { Badge } from "./ui/badge";
 
 import {

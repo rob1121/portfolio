@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
         <h2 className="text-7xl font-bold">Contact</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <p className="text-xl pt-8">
-            I'm excited to hear from you. Whether it's a question, a
+            I&apos;m excited to hear from you. Whether it&apos;s a question, a
             collaboration opportunity, or just to say hi, feel free to send me
             an email at{" "}
             <a href="mailto:robinson.legaspi@yahoo.com">

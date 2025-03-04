@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           </span>
         </div>
         <h1 className="text-4xl sm:text-6xl font-bold">
-          Hi, I'm{" "}
+          Hi, I&apos;m{" "}
           <SparklesText
             text="Robinson Legaspi"
             className="text-4xl sm:text-6xl font-bold"

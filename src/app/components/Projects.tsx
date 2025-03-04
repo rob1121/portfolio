@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
       <div className="w-full">
         <h2 className="text-7xl font-bold">My Projects</h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-between">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 justify-between">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
