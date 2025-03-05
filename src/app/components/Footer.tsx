@@ -5,10 +5,10 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-800 py-4 w-screen">
       <div className="container max-w-5xl px-4 text-center text-white">
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div className="flex flex-col items-start gap-4">
             <h2 className="text-2xl font-bold">Robinson Legaspi</h2>
-            <Socials />
+            <Socials iconOnly className="flex-row" />
           </div>
           <div className="flex flex-col items-start gap-4">
             <h2 className="text-2xl font-bold">Quick Links</h2>

@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
     <section className="flex flex-col items-center gap-6 w-full" id="contact">
       <div className="w-full">
         <h3 className="text-gray-500">Lets get in touch</h3>
-        <h2 className="text-7xl font-bold">Contact</h2>
+        <h2 className="text-6xl font-bold">Contact</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <p className="text-xl pt-8">
             I&apos;m excited to hear from you. Whether it&apos;s a question, a

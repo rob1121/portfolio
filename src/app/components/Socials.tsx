@@ -3,7 +3,10 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { cn } from "@/lib/utils";
 
-const Socials: React.FC<{ className?: string }> = ({ className }) => {
+const Socials: React.FC<{ className?: string; iconOnly?: boolean }> = ({
+  className,
+  iconOnly = false,
+}) => {
   return (
     <div
       className={cn(
@@ -17,7 +20,7 @@ const Socials: React.FC<{ className?: string }> = ({ className }) => {
         className="flex items-center gap-2 hover:opacity-100 opacity-50 transition duration-300 ease-in-out"
       >
         <FontAwesomeIcon icon={faGithub} className="size-4" />
-        https://github.com/rob1121
+        {iconOnly ? null : "https://github.com/rob1121"}
       </a>
       <a
         target="_blank"
@@ -26,7 +29,7 @@ const Socials: React.FC<{ className?: string }> = ({ className }) => {
         className="flex items-center gap-2 hover:opacity-100 opacity-50 transition duration-300 ease-in-out"
       >
         <FontAwesomeIcon icon={faLinkedin} className="size-4" />
-        https://www.linkedin.com/in/robinson-legaspi/
+        {iconOnly ? null : "https://www.linkedin.com/in/robinson-legaspi/"}
       </a>
       <a
         target="_blank"
@@ -35,7 +38,7 @@ const Socials: React.FC<{ className?: string }> = ({ className }) => {
         className="flex items-center gap-2 hover:opacity-100 opacity-50 transition duration-300 ease-in-out"
       >
         <FontAwesomeIcon icon={faEnvelope} className="size-4" />
-        robinson.legaspi@yahoo.com
+        {iconOnly ? null : "robinson.legaspi@yahoo.com"}
       </a>
     </div>
   );
