@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Robinson Legaspi",
     description: "Software developer",
-    images: ["/opengraph.jpg"],
+    images: ["/profile.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Robinson Legaspi",
     description: "Software developer",
-    images: ["/opengraph.jpg"],
+    images: ["/profile.jpg"],
   },
 };
 
