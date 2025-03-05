@@ -18,6 +18,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Robinson Legaspi",
   description: "Software developer",
+  openGraph: {
+    title: "Robinson Legaspi",
+    description: "Software developer",
+    images: ["/opengraph.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Robinson Legaspi",
+    description: "Software developer",
+    images: ["/opengraph.jpg"],
+  },
 };
 
 export default function RootLayout({
