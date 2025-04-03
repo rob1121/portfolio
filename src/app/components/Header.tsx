@@ -24,7 +24,7 @@ const Header: React.FC = () => {
           />
         </h1>
         <h2 className="text-3xl sm:text-5xl font-semibold text-gray-700 dark:text-gray-300">
-          Software Developer
+          Lead Frontend Engineer
         </h2>
         <Socials />
       </div>
