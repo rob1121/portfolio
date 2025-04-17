@@ -46,7 +46,7 @@ const Socials: React.FC<{ className?: string; iconOnly?: boolean }> = ({
       </a>
       <a
         target="_blank"
-        href="https://drive.google.com/file/d/1rpLxsKeFYwdzbBi68bS7cThCfEMAm5l_/view?usp=sharing"
+        href="https://drive.google.com/file/d/1p_yVN0TcJY9k-2IBmpM-V0C5alBg1UHU/view?usp=sharing"
         aria-label="CV"
         title="Download CV"
         className="flex items-center gap-2 hover:opacity-100 opacity-50 transition duration-300 ease-in-out"
